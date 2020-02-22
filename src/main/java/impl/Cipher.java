@@ -2,7 +2,7 @@ package impl;
 
 public interface Cipher {
 
-    String encode(String TextToEncode);
-    String decode(String TextToDecode);
+    String encode(String textToEncode);
+    String decode(String textToDecode);
 
 }

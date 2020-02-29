@@ -14,9 +14,11 @@ variable with name equal to its id-->
 
 <AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainController">
    <children>
-      <TextArea fx:id="textArea" layoutX="110.0" layoutY="142.0" prefHeight="198.0" prefWidth="339.0" promptText="write text you want to encode" />
-      <Button fx:id="button" layoutX="475.0" layoutY="83.0" mnemonicParsing="false" onAction="#triggerEncoding" prefHeight="36.0" prefWidth="102.0" text="ENCODE" />
-      <Button mnemonicParsing="false" text="Button" />
-      <Button fx:id="Decode" layoutX="472.0" layoutY="14.0" mnemonicParsing="false" onAction="#triggerDecoding" prefHeight="36.0" prefWidth="113.0" text="Decode" />
+      <TextArea fx:id="textArea" layoutX="110.0" layoutY="142.0" prefHeight="198.0" prefWidth="339.0" promptText="write text you want to encode" text="hare kryszna" />
+      <Button fx:id="button" layoutX="348.0" layoutY="78.0" mnemonicParsing="false" onAction="#triggerEncoding" prefHeight="36.0" prefWidth="114.0" text="ENCODE" />
+      <Button layoutX="212.0" layoutY="60.0" mnemonicParsing="false" onAction="#saveToFile" prefHeight="36.0" prefWidth="67.0" text="Save" />
+      <Button fx:id="Decode" layoutX="348.0" layoutY="24.0" mnemonicParsing="false" onAction="#triggerDecoding" prefHeight="36.0" prefWidth="113.0" text="Decode" />
+      <TextField fx:id="saveFild" layoutX="51.0" layoutY="60.0" onAction="#saveToFile" prefHeight="36.0" prefWidth="149.0" promptText="Path to file" />
+      <Button layoutX="33.0" layoutY="24.0" mnemonicParsing="false" onAction="#loadFile" text="load" />
    </children>
 </AnchorPane>

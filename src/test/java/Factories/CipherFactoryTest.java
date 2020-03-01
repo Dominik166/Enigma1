@@ -2,9 +2,9 @@ package Factories;
 
 import Factories.imp.CipherFactoryImp;
 import exceptions.CipherNotFoundException;
-import impl.CesarCipher;
-import impl.Cipher;
-import impl.Root13Cipher;
+import ciphers.impl.impl.CesarCipher;
+import ciphers.impl.Cipher;
+import ciphers.impl.impl.Root13Cipher;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

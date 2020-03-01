@@ -1,6 +1,6 @@
 package Ciphers;
-import impl.Cipher;
-import impl.Root13Cipher;
+import ciphers.impl.Cipher;
+import ciphers.impl.impl.Root13Cipher;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

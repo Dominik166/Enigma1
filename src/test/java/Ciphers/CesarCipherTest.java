@@ -1,7 +1,7 @@
 
 package Ciphers;
-import impl.CesarCipher;
-import impl.Cipher;
+import ciphers.impl.impl.CesarCipher;
+import ciphers.impl.Cipher;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

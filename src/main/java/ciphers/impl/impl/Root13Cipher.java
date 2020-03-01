@@ -1,4 +1,6 @@
-package impl;
+package ciphers.impl.impl;
+
+import ciphers.impl.Cipher;
 
 public class Root13Cipher implements Cipher {
 

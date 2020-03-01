@@ -1,6 +1,6 @@
 package Factories;
 
-import impl.Cipher;
+import ciphers.impl.Cipher;
 
 public interface CipherFactory {
     Cipher create(String type);

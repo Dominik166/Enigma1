@@ -1,6 +1,8 @@
 
-package impl;
+package ciphers.impl.impl;
 
+
+import ciphers.impl.Cipher;
 
 public class CesarCipher implements Cipher {
     @Override
@@ -85,9 +87,9 @@ public class CesarCipher implements Cipher {
 
 
 
-//        package impl;
+//        package ciphers.impl.impl;
 //
-//import impl.Cipher;
+//import ciphers.ciphers.impl.impl.Cipher;
 //
 //
 //public class CesarCipher implements Cipher {
